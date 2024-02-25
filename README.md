@@ -1,3 +1,5 @@
+# gtest_cmake_tempcontrol
+
 A sample project illustrating how to perform unit testing with GoogleTest and CMake
 
 ## Building
@@ -15,4 +17,4 @@ make
 build/test/testtemperaturecontrol/testtemperaturecontrol
 ~~~
 
-# gtest_cmake_tempcontrol
+

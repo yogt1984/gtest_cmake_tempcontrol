@@ -17,16 +17,20 @@ cmake ..
 make
 ~~~
 
-## Test Cases Executable Location
+## Run test cases
+
+from project folder
 
 ~~~
-gtest_cmake_tempcontrol/build/test/testtemperaturecontrol/testtemperaturecontrol
+./build/test/testtemperaturecontrol/testtemperaturecontrol
 ~~~
 
 
 
-## App Executable Location
+## Run app 
+
+from project folder
 
 ~~~
-gtest_cmake_tempcontrol/build/main/MyApp
+./build/main/myApp
 ~~~

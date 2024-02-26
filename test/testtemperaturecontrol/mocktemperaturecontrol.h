@@ -2,12 +2,12 @@
 #include <gmock/gmock.h>
 #include "temperaturecontrol.h"
 
-// Mock class for TemperatureControl
+
 class MockTemperatureControl : public TemperatureControl {
 public:
-    // Use the constructor of the base class
-    using TemperatureControl::TemperatureControl;
+    MockTemperatureControl(float minTemp, float maxTemp)
+        : TemperatureControl(minTemp, maxTemp) {}
 
-    MOCK_METHOD(void, updateTemperature, (float currentTemp));
+    // Mocked method to update temperature
+    MOCK_METHOD(void, updateTemperature, (float currentTemp), (override));
 };
-

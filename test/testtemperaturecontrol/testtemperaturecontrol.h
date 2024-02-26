@@ -6,7 +6,7 @@ class TemperatureControlTest : public ::testing::Test {
 protected:
     void SetUp(){
         // Set up TemperatureControl object with minTemp = 20 and maxTemp = 30
-        tc = new TemperatureControl(20.0f, 30.0f);
+        tc   = new TemperatureControl(20.0f, 30.0f);
     }
 
     void TearDown(){
@@ -14,5 +14,4 @@ protected:
     }
 
     TemperatureControl*       tc;
-    MockTemperatureControl* m_tc;
 };

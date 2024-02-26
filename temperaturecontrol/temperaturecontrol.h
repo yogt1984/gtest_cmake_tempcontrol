@@ -5,15 +5,16 @@ class TemperatureControl {
 public:
     TemperatureControl(float minTemp, float maxTemp);
 
-    void updateTemperature(float currentTemp);
-    bool isHeating() const;
-    bool isCooling() const;
+    virtual void updateTemperature(float currentTemp);
+    virtual bool isHeating() const;
+    virtual bool isCooling() const;
+    bool heating_;
+    bool cooling_;
 
 private:
     float minTemp_;
     float maxTemp_;
-    bool heating_;
-    bool cooling_;
+
 };
 
 #endif 

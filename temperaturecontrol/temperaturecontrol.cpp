@@ -23,4 +23,3 @@ bool TemperatureControl::isHeating() const {
 bool TemperatureControl::isCooling() const {
     return cooling_;
 }
-

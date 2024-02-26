@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cstdlib>
-#include "temperature_control.h"
+#include "temperaturecontrol.h"
 
 int main() {
     TemperatureControl control(20, 25);

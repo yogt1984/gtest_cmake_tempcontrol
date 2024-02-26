@@ -20,7 +20,13 @@ make
 ## Running Tests
 
 ~~~
-build/test/testtemperaturecontrol/testtemperaturecontrol
+./build/test/testtemperaturecontrol/testtemperaturecontrol
 ~~~
 
 
+
+## Running App
+
+~~~
+./build/main/MyApp
+~~~

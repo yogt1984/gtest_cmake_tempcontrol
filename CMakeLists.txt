@@ -6,3 +6,5 @@ enable_testing()
 
 add_subdirectory(temperaturecontrol)
 add_subdirectory(test)
+add_subdirectory(main)
+
